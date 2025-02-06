@@ -1,5 +1,6 @@
 Plugin Moodle
 Auto Hide Activity Plugin → Ocultar Atividade Automaticamente
+
 Este plugin para Moodle 4.1.13+ automaticamente oculta atividades criadas por professores (editingteacher) e permite que moderadores (teacher) gerenciem a visibilidade dessas atividades.
 
 Requisitos
