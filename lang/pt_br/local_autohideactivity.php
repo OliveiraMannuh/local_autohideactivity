@@ -19,7 +19,7 @@
  *
  * @package     local_autohideactivity
  * @category    languages
- * @copyright   2025 Manuela Oliveira<oliveira.mannuh@gmail.com>
+ * @copyright   2025, Manuela Oliveira <oliveira.mannuh@gmail.com>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

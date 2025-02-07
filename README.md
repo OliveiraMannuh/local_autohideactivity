@@ -1,25 +1,25 @@
-Plugin Moodle
+# Plugin Moodle
 
-Auto Hide Activity Plugin → Ocultar Atividade Automaticamente
+# Auto Hide Activity Plugin → Ocultar Atividade Automaticamente
 
-Este plugin para Moodle 4.1.13+ automaticamente oculta atividades criadas por professores (editingteacher) e permite que moderadores (teacher) gerenciem a visibilidade dessas atividades.
+Este plugin para Moodle 4.1.13+ automaticamente oculta atividades criadas por professores (editingteacher) e permite que moderadores (teacher) gerenciem a visibilidade dessas atividades, com a permissão de ocultar e mostrar as atividades. 
 
-Requisitos
+## Requisitos
 
 Moodle versão 4.1.13 ou superior
 PHP 7.4 ou superior
 
-Instalação
+## Instalação
 
 Faça o download do plugin
 Extraia os arquivos para a pasta /local/autohideactivity do seu Moodle
 Acesse como administrador e complete o processo de instalação
 
-Configuração de Permissões
+## Configuração de Permissões
 
 Para o correto funcionamento do plugin, as seguintes permissões devem ser configuradas:
 
-Professor (editingteacher):
+## Professor (editingteacher):
 
 moodle/course:manageactivities (Padrão)
 moodle/course:activityvisibility (Padrão)
@@ -27,11 +27,11 @@ local/autohideactivity:managehidden (Adicionada pelo plugin)
 Ocultar/Mostrar atividades
 moodle/course:activityvisibility (NEGAR)
 
-Moderador (teacher):
+## Moderador (teacher):
 moodle/course:activityvisibility (Padrão)
 local/autohideactivity:managehidden (Adicionada pelo plugin)
 
-Estudante (student):
+## Estudante (student):
 Nenhuma permissão adicional necessária
 
 Funcionalidades:
@@ -42,7 +42,7 @@ Mostrar/ocultar atividades
 Gerenciar a visibilidade das atividades através da capacidade managehidden
 
 
-Suporte a Idiomas:
+# Suporte a Idiomas:
 
 O plugin inclui suporte para os seguintes idiomas:
 
