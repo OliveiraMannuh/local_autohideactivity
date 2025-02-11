@@ -28,8 +28,17 @@ Ocultar/Mostrar atividades
 moodle/course:activityvisibility (NEGAR)
 
 ## Moderador (teacher):
-moodle/course:activityvisibility (Padrão)
-local/autohideactivity:managehidden (Adicionada pelo plugin)
+moodle/course:activityvisibility (Padrão) → Permite alterar a visibilidade das atividades
+
+moodle/course:viewhiddenactivities (Padrão) → Permite ver atividades ocultas
+
+moodle/course:viewhiddensections (Padrão) → Permite ver seções ocultas do curso
+
+moodle/course:manageactivities (Padrão) → Permite gerenciar atividades
+
+mod/assign:revealidentities (Padrão) → Permite revelar identidades em atividades anônimas
+
+local/autohideactivity:managehidden (Adicionada pelo plugin) → Permissão personalizada para gerenciar atividades ocultas
 
 ## Estudante (student):
 Nenhuma permissão adicional necessária
