@@ -15,7 +15,7 @@ Faça o download do plugin
 Extraia os arquivos para a pasta /local/autohideactivity do seu Moodle
 Acesse como administrador e complete o processo de instalação
 
-## Configuração de Permissões
+## Configuração de Permissões:
 
 Para o correto funcionamento do plugin, as seguintes permissões devem ser configuradas:
 
@@ -41,9 +41,9 @@ mod/assign:revealidentities (Padrão) → Permite revelar identidades em ativida
 local/autohideactivity:managehidden (Adicionada pelo plugin) → Permissão personalizada para gerenciar atividades ocultas
 
 ## Estudante (student):
-Nenhuma permissão adicional necessária
+Nenhuma permissão adicional necessária.
 
-Funcionalidades:
+## Funcionalidades:
 
 Ocultação Automática: Quando um professor (editingteacher) cria uma nova atividade, ela é automaticamente ocultada dos estudantes.
 Gerenciamento de Visibilidade: Somente moderadores podem: 
@@ -56,9 +56,10 @@ Gerenciar a visibilidade das atividades através da capacidade managehidden
 O plugin inclui suporte para os seguintes idiomas:
 
 Inglês (en)
+
 Português do Brasil (pt_br)
 
-Suporte:
+## Suporte:
 
 Para reportar problemas ou sugerir melhorias, por favor abra uma issue no repositório do projeto.
 
